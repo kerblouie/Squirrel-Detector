@@ -73,7 +73,8 @@ while True:
     print("detected {:d} objects in image".format(len(detections)))
 
     if not any(detections):
-        continue
+        # continue
+        pass
 
     for detection in detections:
         print(detection)
@@ -82,7 +83,7 @@ while True:
     output.Render(img)
 
     # update the title bar
-    output.SetStatus("{:s} | Network {:.0f} FPS".format(args.network, net.GetNetworkFPS()))
+    output.SetStatus("Network {:.0f} FPS".format(net.GetNetworkFPS()))
 
     # print out performance info
     net.PrintProfilerTimes()
