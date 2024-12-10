@@ -21,4 +21,4 @@ We followed advice for how the dataset is structured [here.](https://forums.deve
 2. Clone this repository.
 3. Run the script using the following command and use --help to view arguments: `python3 squirrelnet.py --help`
 
-[View a video explanation here](video link)
+[View a video demonstration here.](./squirrel_slideshow_output.mp4)
